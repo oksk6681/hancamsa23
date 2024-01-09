@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="css/all.css" rel="stylesheet">
+        <!-- font css -->
+        <link href="css/font/font.css" rel="stylesheet">
+        <!-- nav 영역 css -->
+        <link href="css/nav.css" rel="stylesheet">
+        <!-- index css -->
+        <link href="css/index.css" rel="stylesheet">
+
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <script src="js/popup.js"></script>
+    </head>
+
+    <body onload="showPopup()">
+
+        <div id="section_main">
+            <div
+                class="container"
+                style="width: 100%; height : 100%; margin: 0; padding: 0; z-index: 5;">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+                        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item">
+                            <img
+                                src="image/main1.jpg"
+                                alt="Los Angeles"
+                                style="width:1440px; height: 790px;">
+                        </div>
+
+                        <div class="item">
+                            <img src="image/main2.jpg" alt=" Chicago " style="width:1440px; height: 790px ">
+                        </div>
+
+                        <div class="item active">
+                            <img
+                                src="image/main3.jpg "
+                                alt="New york "
+                                style="width:1440px; height: 790px ">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="section_main_nav">
+                <div id="section_main_nav_home">
+                    <a href="index.html" style="text-decoration: none;">
+                        <p>한캠사</p>
+                    </a>
+
+                </div>
+
+                <div id="section_main_nav_menu">
+                    <div id="section_main_nav_menu_first">
+                        <a href="introduce.html">
+                            <p>소개</p>
+                        </a>
+                    </div>
+                    <div id="section_main_nav_menu_seciond">
+                        <a href="campusMap.html">
+                            <p>캠퍼스맵</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div id="section_main_welcomeTextBox">
+                <b>
+                    <p>한캠사에 오신 것을<br>진심으로 환영합니다</p>
+                </b>
+            </div>
+        </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/all.css" rel="stylesheet">
+    <!-- font css -->
+    <link href="css/font/font.css" rel="stylesheet">
+    <!-- index css -->
+    <link href="css/campusMap.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+
+
+
+<body>
+
+    <div id="section_main">
+        <div id="section_1">
+            <div id="section_N_main">
+                <div id="section_main_nav">
+                    <div id="section_main_nav_home">
+                        <a href="index.html" style="text-decoration: none;">
+                            <p>한캠사</p>
+                        </a>
+
+                    </div>
+
+                    <div id="section_main_nav_menu">
+                        <div id="section_main_nav_menu_first">
+                            <a href="introduce.html">
+                                <p>소개</p>
+                            </a>
+                        </div>
+                        <div id="section_main_nav_menu_seciond">
+                            <a href="campusMap.html">
+                                <p>캠퍼스맵</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="section_main_imageMap">
+                    <br>
+                    <p class="typing-txt">건물을 선택해보세요!</p>
+                    <p class="typing">&nbsp&nbsp: </p>
+                    <img src="image/mainMap.png" id="imageMap" usemap="#imgMap">
+                    <map name="imgMap">
+                        <area shape="poly" id="HDH" name="현동홀" coords="370 130 530 130 530 225 495 225 495 165 370 165"
+                            href="javascript:check('HDH.html', '현동홀')" onfocus="this.blur()">
+                        <!-- href="html/HDH.html" onfocus="this.blur()"> -->
+
+                        <area shape="poly" name="느헤미야홀" coords="180 225 305 225 305 160 340 160 340 255 180 255"
+                            href="javascript:check('NMH.html', '느헤미야홀')" onfocus="this.blur()">
+
+                        <area shape="rect" name="뉴턴홀" coords="175 310 330 330"
+                            href="javascript:check('NTH.html', '뉴턴홀')" onfocus="this.blur()">
+
+                        <area shape="poly" name="올네이션스홀" coords="180 330 210 330 210 410 225 410 225 445 180 445 "
+                            href="javascript:check('ANH.html', '올네이션스홀')" onfocus="this.blur()">
+
+                        <area shape="rect" name="코너스톤홀" coords="235 410 280 445"
+                            href="javascript:check('CSH.html', '코너스톤홀')" onfocus="this.blur()">
+
+                        <area shape="rect" name="오석관" coords="285 355 330 450" href="javascript:check('OH.html', '오석관')"
+                            onfocus="this.blur()">
+
+                        <area shape="poly" name="학관"
+                            coords="570 340 710 340 710 405 685 405 685 430 598 430 598 405 570 405"
+                            href="javascript:check('SU.html', '학관')" onfocus="this.blur()">
+
+                        <area shape="poly" name="복지동" coords="740 350 820 350 820 370 760 370 760 390 740 390"
+                            href="javascript:check('BockJi.html', '복지동')" onfocus="this.blur()">
+
+                        <area shape="rect" name="언어교육원" coords="515 20 570 40"
+                            href="javascript:check('GLC.html', '언어교육원')" onfocus="this.blur()">
+                        <area shape="rect" name="채플" coords="610 15 725 35" href="javascript:check('HCA.html', '채플')"
+                            onfocus="this.blur()">
+                        <area shape="rect" name="에벤에셀" coords="835 145 950 165"
+                            href="javascript:check('EBEN.html', '에벤에셀')" onfocus="this.blur()">
+
+                    </map>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/JS.js"></script>
+</body>
+
+</html>
