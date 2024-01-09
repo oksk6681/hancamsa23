@@ -24,7 +24,7 @@ function check(page, building) {
     if (answer) {
         // location.href = "/Users/gimgwang-il/OneDrive/20-2/[4] 앱프로그래밍/han(version2)/html/" + page;
         // golive x
-        location.href = "/html/" + page;
+        location.href = "./html/" + page;
         // golive o
     }
 }
